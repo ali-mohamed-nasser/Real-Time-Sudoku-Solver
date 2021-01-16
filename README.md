@@ -30,11 +30,9 @@ Convert the image to grayscale and apply some gaussian blur for easier edges det
 We use the **Adaptive Thresholding** because this kind of thresholding calculate the threshold value for smaller regions and therefore, so there will be different threshold values for different regions. And this way give us better results in different lighting conditions becouse apply this threshold will remove unwanted noice.
 
 ### Finding Cotours & getting the biggest one
-Contours can be explained simply as a curve joining all the continuous points (along the boundary), having same color or intensity. The contours are a useful tool for shape analysis and object detection and recognition.And for better accuracy, you should use binary images. So before finding contours we applied adaptive threshold or you can use Canny edge detection.
+Contours can be explained simply as a curve joining all the continuous points (along the boundary), having same color or intensity. The contours are a useful tool for shape analysis and object detection and recognition.And for better accuracy, you should use binary images. So before finding contours we applied adaptive threshold or you can use Canny edge detection. Finally we extract the biggest contours because the sudoku board is the biggest one, then we wrap the perspective to extract the board.
 
 *Note: In OpenCV, finding contours is like finding white object from black background. So remember, object to be found should be white and background should be black.*
-
-Finally we extract the biggest contours because the sudoku board is the biggest one, then we wrap the perspective to extract the board.
 
 ### Getting digits from the grid
 After getting the board in the last step we split that board to 81 image (each cell will be an image). And we clear that images one more time using thresholding to make the digits images more clear and sharp to pass it to the number detection model.
