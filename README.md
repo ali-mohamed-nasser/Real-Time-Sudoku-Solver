@@ -41,6 +41,8 @@ Contours can be explained simply as a curve joining all the continuous points (a
 ### Getting digits from the grid
 After getting the board in the last step we split that board to 81 image (each cell will be an image). And we clear that images one more time using thresholding to make the digits images more clear and sharp to pass it to the number detection model.
 
+<img src="https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver/blob/main/images/split.png" width="1200">
+
 ### Recognising the value of digits
 CNN is used for optocal character recognition here, and then it is further processed. The CNN convert the value of recognised digit to a string that can we used for further operations. The output of this opration is the number of each image and the empty cells will replaced by zero.
 
