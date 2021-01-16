@@ -51,4 +51,5 @@ CNN is used for optocal character recognition here, and then it is further proce
 ### Solve the sudoku board and display the solution
 We use an external program that take an array of numbers (9x9) array. Then solve that array and return the result to place it on the image. To solve this array we use the backtracking algorithm which is a technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point. Finally overlay the corresponding calculated results on to live video.
 
-<img src="https://miro.medium.com/max/500/1*1aj4-PcXpXs_llBbxanWIg.gif" width="300">
+<img src="https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver/blob/main/images/backtracking.gif" width="300">
+<img src="https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver/blob/main/images/numbers.png" width="600">
