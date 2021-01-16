@@ -29,7 +29,7 @@ Convert the image to grayscale and apply some gaussian blur for easier edges det
 
 We use the **Adaptive Thresholding** because this kind of thresholding calculate the threshold value for smaller regions and therefore, so there will be different threshold values for different regions. And this way give us better results in different lighting conditions becouse apply this threshold will remove unwanted noice.
 
-<img src="https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver/tree/main/images/preproccessing.png">
+<img src="https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver/blob/main/images/preproccessing.png" width="300">
 
 ### Finding Cotours & getting the biggest one
 Contours can be explained simply as a curve joining all the continuous points (along the boundary), having same color or intensity. The contours are a useful tool for shape analysis and object detection and recognition.And for better accuracy, you should use binary images. So before finding contours we applied adaptive threshold or you can use Canny edge detection. Finally we extract the biggest contours because the sudoku board is the biggest one, then we wrap the perspective to extract the board.
