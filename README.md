@@ -17,3 +17,29 @@ Basic knowledge of numpy including syntax and computational part are essentail t
 
 ### Convolution Neural Network (CNN)
 Convolution neural network is one of the deep learning algorithm that used to classify large image data into multi classes such as classify the images of dogs and cats to 2 classes or the image of other things to many classes. You shold have basic knowledge of deep learning and CNNs because we use it in the number detection and get the right class of each number. Or you can use another type of number recognition called OCR like (pytersseract) or any other OCR, and it will do the same work. You can learn it from [tensorflow.org](https://www.tensorflow.org/tutorials/images/cnn).
+
+# How it works ?
+First we read an input video from the webcam frame by frame and resize that video into square (900x900) video to work with it and after that we apply the following steps for each frame of that video.
+
+### Image Processing
+Convert the image to grayscale and apply some gaussian blur for easier edges detection then apply **image thresholding** which is the simplest method of image segmentation. From a grayscale image, thresholding can be used to create binary images. And there is many types of image thresholding:
+- Simple thresholding
+- Ostu's Binarization
+- Adaptive Thresholding
+
+We use the **Adaptive Thresholding** because this kind of thresholding calculate the threshold value for smaller regions and therefore, so there will be different threshold values for different regions. And this way give us better results in different lighting conditions becouse apply this threshold will remove unwanted noice.
+
+### Finding Cotours & getting the biggest one
+Contours can be explained simply as a curve joining all the continuous points (along the boundary), having same color or intensity. The contours are a useful tool for shape analysis and object detection and recognition.And for better accuracy, you should use binary images. So before finding contours we applied adaptive threshold or you can use Canny edge detection.
+*Note: In OpenCV, finding contours is like finding white object from black background. So remember, object to be found should be white and background should be black.
+
+Finally we extract the biggest contours because the sudoku board is the biggest one, then we wrap the perspective to extract the board.
+
+### Getting digits from the grid
+After getting the board in the last step we split that board to 81 image (each cell will be an image). And we clear that images one more time using thresholding to make the digits images more clear and sharp to pass it to the number detection model.
+
+### Recognising the value of digits
+CNN is used for optocal character recognition here, and then it is further processed. The CNN convert the value of recognised digit to a string that can we used for further operations. The output of this opration is the number of each image and the empty cells will replaced by zero.
+
+### Solve the sudoku board and display the solution
+We use an external program that take an array of numbers (9x9) array. Then solve that array and return the result to place it on the image **(The code is provided here)**.
