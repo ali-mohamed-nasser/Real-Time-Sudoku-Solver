@@ -1,8 +1,8 @@
-<h1> Real Time Sudoku Solver </h1>
+<h1 style="color:#ef4f4f;">Real Time Sudoku Solver </h1>
 Sudoku is one of the most popular puzzle of all time. The goal of Sudoku is to fill (9x9) grid such that each row, and each column and the (3x3) small grid contains all of the digits between 1 to 9. And in this project we create a Sudoku solver which recognise the elements of Sudoku puzzle in the input video and providing a digital solution overlays on the top of the original image in real time (in live computer webcam) by using computer vision techniques to recognize and extract digits images from the grid and machine learning model (CNN) to get that digits detections. Sudoku Solver is the collection of very basic image processing techniques. A very good way to start is the OpenCV library which can be compiled on almost all the platforms.
 
 
-### Step [1]: Technologies & Knowledges that required for this project
+<h3>Step [1]: Technologies & Knowledges that required for this project</h3>
 #### 01 Python programming language:
 Basic knowledge of coding and syntax formats of python is essential for this project. Python is advantageous as it easy to comprehend and consists of large number of inbult libraries that facilitate faster outputs.
 
