@@ -46,5 +46,7 @@ After getting the board in the last step we split that board to 81 image (each c
 ### Recognising the value of digits
 CNN is used for optocal character recognition here, and then it is further processed. The CNN convert the value of recognised digit to a string that can we used for further operations. The output of this opration is the number of each image and the empty cells will replaced by zero.
 
+<img src="https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver/blob/main/images/split.png" width="350">
+
 ### Solve the sudoku board and display the solution
 We use an external program that take an array of numbers (9x9) array. Then solve that array and return the result to place it on the image **(The code is provided here)**. Finally overlay the corresponding calculated results on to live video.
