@@ -5,6 +5,7 @@ Sudoku is one of the most popular puzzle of all time. The goal of Sudoku is to f
 ### Computer Vision
 Computer vision is the field that deals with how computers can be made for gaining high level understanding from digital images or videos. From the perspective of engineering, it seeks to automate tasks that the human visual system can do. Computer vision is concerned with the theory behind artificial systems that extract information from images. Computer vision is useful to emulate human vision like object recognition, defect detection or automatic driving etc.
 
+#
 # Knowledges required for this project
 ### Python programming language
 Basic knowledge of coding and syntax formats of python is essential for this project. Python is advantageous as it easy to comprehend and consists of large number of inbult libraries that facilitate faster outputs. Python can be learned through tutorials on [python.org](https://www.python.org/about/gettingstarted/).
