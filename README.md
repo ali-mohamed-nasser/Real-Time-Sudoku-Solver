@@ -77,6 +77,7 @@ Here is a list of sources I used to build this project:
 - Data used to train the CNN model is [Chars74K](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/) for Computer Fonts, instead of MNIST for hand written digits.
 - OpenCV Tutorial on [youtube.com](https://www.youtube.com/watch?v=qOXDoYUgNlU)
 - How to improve Digit Recognition Accuracy [medium.com](https://medium.com/@o.kroeger/tensorflow-mnist-and-your-own-handwritten-digits-4d1cd32bbab4)
-- Find 4 corners from contour [Contour Corners](https://www.programcreek.com/python/example/89417/cv2.arcLength)
-- How to [extract Sudoku Grid](https://maker.pro/raspberry-pi/tutorial/grid-detection-with-opencv-on-raspberry-pi)
-- And OpenCV Tutorial from official website [opencv.org](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
+- [Find 4 corners from contour](https://www.programcreek.com/python/example/89417/cv2.arcLength)
+- [How to extract Sudoku Grid](https://maker.pro/raspberry-pi/tutorial/grid-detection-with-opencv-on-raspberry-pi)
+- OpenCV Tutorial from [opencv.org](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
+- And lot of ideas (and some codes) from [here](https://github.com/anhminhtran235/real_time_sudoku_solver)
