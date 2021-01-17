@@ -30,7 +30,9 @@ Convolution neural network is one of the deep learning algorithm that used to cl
 - Install Keras in anaconda environment: ``` conda install -c conda-forge keras ```
 
 # Usage
-To run this project, clone or download this repository ``` https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver.git ``` then run the file ``` main.py ```
+To run this project follow the steps given below:
+- Clone or download this repository ``` https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver.git ```
+- Run the file ``` main.py ```
 
 # How it works ?
 First we read an input video from the webcam frame by frame and resize that video into square (900x900) video to work with it and after that we apply the following steps for each frame of that video.
