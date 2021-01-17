@@ -8,26 +8,26 @@ Computer vision is the field that deals with how computers can be made for gaini
 # Knowledges required for this project
 ### Python programming language
 Basic knowledge of coding and syntax formats of python is essential for this project. Python is advantageous as it easy to comprehend and consists of large number of inbult libraries that facilitate faster outputs. 
-- Learn python through tutorials from [python.org](https://www.python.org/about/gettingstarted/).
-- Download python from [python.org](https://www.python.org/downloads/).
+- Learn python through tutorials from [python.org](https://www.python.org/about/gettingstarted/)
+- Download python from [python.org](https://www.python.org/downloads/)
 
 ### OpenCV library
 Basic knowledge of opencv regarding use applications and syntax are essential here. It is a library in python that helps with computer vision and is more convenient as it provides large number of functions for conversions and processing. 
-- Learn OpenCV from [opencv.org](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html).
-- Install OpenCV using pip: ``` pip install opencv-python ```
-- Install OpenCV in anaconda environment: ``` conda install -c conda-forge opencv ```
+- Learn OpenCV from [opencv.org](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
+- Install OpenCV using pip ``` pip install opencv-python ```
+- Install OpenCV in anaconda environment ``` conda install -c conda-forge opencv ```
 
 ### Numpy library
 Basic knowledge of numpy including syntax and computational part are essentail to form image arrays. It is a lirary in pyton used to perform mathematical computation. 
-- Learn Numpy from [numpy.org](http://www.numpy.org/).
-- Install Numpy usin pip: ``` pip install numpy ```
-- Install Numpy in anaconda environment: ``` conda install numpy ```
+- Learn Numpy from [numpy.org](http://www.numpy.org/)
+- Install Numpy usin pip ``` pip install numpy ```
+- Install Numpy in anaconda environment ``` conda install numpy ```
 
 ### Convolution Neural Network (CNN)
 Convolution neural network is one of the deep learning algorithm that used to classify large image data into multi classes such as classify the images of dogs and cats to 2 classes or the image of other things to many classes. You shold have basic knowledge of deep learning and CNNs because we use it in the number detection and get the right class of each number. Or you can use another type of number recognition called OCR like (pytersseract) or any other OCR, and it will do the same work. 
-- Learn CNN from [tensorflow.org](https://www.tensorflow.org/tutorials/images/cnn).
-- Install Keras: ``` pip install Keras ```
-- Install Keras in anaconda environment: ``` conda install -c conda-forge keras ```
+- Learn CNN from [tensorflow.org](https://www.tensorflow.org/tutorials/images/cnn)
+- Install Keras ``` pip install Keras ```
+- Install Keras in anaconda environment ``` conda install -c conda-forge keras ```
 
 # Usage
 To run this project follow the steps given below:
@@ -67,6 +67,6 @@ CNN is used for optocal character recognition here, and then it is further proce
 ### Solve the sudoku board and display the solution
 We use an external program that take an array of numbers (9x9) array. Then solve that array and return the result to place it on the image. To solve this array we use the backtracking algorithm which is a technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point. Finally overlay the corresponding calculated results on to live video.
 
-Backtracking Algorithm     |  Place Solution
+Backtracking Algorithm     |  Overlay Solution
 :-------------------------:|:-------------------------:
 ![](https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver/blob/main/images/backtraking.gif) | ![](https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver/blob/main/images/place.png)
