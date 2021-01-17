@@ -30,9 +30,10 @@ Convolution neural network is one of the deep learning algorithm that used to cl
 - Install Keras in anaconda environment ``` conda install -c conda-forge keras ```
 
 # Usage
-To run this project follow the steps given below:
+To run this project make sure you have the required installation of Python, OpenCV, Tensorflow and Keras then follow the steps given below:
 - Clone or download this repository ``` https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver.git ```
 - Run the file ``` main.py ```
+- You don't need to train CNN on your own. I have trained a CNN model and saved the architecture in ``` numbersDetection.h5 ```
 
 # How it works ?
 First we read an input video from the webcam frame by frame and resize that video into square (900x900) video to work with it and after that we apply the following steps for each frame of that video.
@@ -70,3 +71,12 @@ We use an external program that take an array of numbers (9x9) array. Then solve
 Backtracking Algorithm     |  Overlay Solution
 :-------------------------:|:-------------------------:
 ![](https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver/blob/main/images/backtraking.gif) | ![](https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver/blob/main/images/place.png)
+
+# References
+Here is a list of sources I used to build this project:
+- Data used to train the CNN model is [Chars74K](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/) for Computer Fonts, instead of MNIST for hand written digits.
+- OpenCV Tutorial on [youtube.com](https://www.youtube.com/watch?v=qOXDoYUgNlU)
+- How to improve Digit Recognition Accuracy [medium.com](https://medium.com/@o.kroeger/tensorflow-mnist-and-your-own-handwritten-digits-4d1cd32bbab4)
+- Find 4 corners from contour [Contour Corners](https://www.programcreek.com/python/example/89417/cv2.arcLength)
+- How to [extract Sudoku Grid](https://maker.pro/raspberry-pi/tutorial/grid-detection-with-opencv-on-raspberry-pi)
+- And OpenCV Tutorial from official website [opencv.org](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
