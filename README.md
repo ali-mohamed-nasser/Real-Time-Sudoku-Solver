@@ -35,7 +35,7 @@ To run this project make sure you have the required installation of Python, Open
 - Run the file ``` main.py ```
 - You don't need to train CNN on your own. I have trained a CNN model and saved the architecture in ``` numbersDetection.h5 ```
 
-# How it works ?
+# How does it work?
 First I read an input video from the webcam frame by frame and resize that video into square (900x900) video to work with it and after that I apply the following steps for each frame of that video.
 
 ### Image Processing
