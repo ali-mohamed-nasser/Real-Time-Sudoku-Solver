@@ -4,7 +4,7 @@ Sudoku is one of the most popular puzzle of all time. The goal of Sudoku is to f
 
 ### Computer Vision
 Computer vision is the field that deals with how computers can be made for gaining high level understanding from digital images or videos. From the perspective of engineering, it seeks to automate tasks that the human visual system can do. Computer vision is concerned with the theory behind artificial systems that extract information from images. Computer vision is useful to emulate human vision like object recognition, defect detection or automatic driving etc.
-
+<br />
 # Knowledges required for this project
 ### Python programming language
 Basic knowledge of coding and syntax formats of python is essential for this project. Python is advantageous as it easy to comprehend and consists of large number of inbult libraries that facilitate faster outputs. 
@@ -28,13 +28,13 @@ Convolution neural network is one of the deep learning algorithm that used to cl
 - Learn CNN from [tensorflow.org](https://www.tensorflow.org/tutorials/images/cnn)
 - Install Keras ``` pip install Keras ```
 - Install Keras in anaconda environment ``` conda install -c conda-forge keras ```
-
+<br />
 # Usage
 To run this project make sure you have the required installation of Python, OpenCV, Tensorflow and Keras then follow the steps given below:
 - Clone or download this repository ``` https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver.git ```
 - Run the file ``` main.py ```
 - You don't need to train CNN on your own. I have trained a CNN model and saved the architecture in ``` numbersDetection.h5 ```
-
+<br />
 # How does it work?
 First I read an input video from the webcam frame by frame and resize that video into square (900x900) video to work with it and after that I apply the following steps for each frame of that video.
 
@@ -71,7 +71,7 @@ I use an external program that take an array of numbers (9x9) array. Then solve 
 Backtracking Algorithm     |  Overlay Solution
 :-------------------------:|:-------------------------:
 ![](https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver/blob/main/images/backtraking.gif) | ![](https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver/blob/main/images/place.png)
-
+<br />
 # References
 Here is a list of sources I used to build this project:
 - Data used to train the CNN model is [Chars74K](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/) for Computer Fonts, instead of MNIST for hand written digits.
