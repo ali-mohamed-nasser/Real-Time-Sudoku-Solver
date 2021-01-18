@@ -4,6 +4,7 @@ Sudoku is one of the most popular puzzle of all time. The goal of Sudoku is to f
 
 ### Computer Vision
 Computer vision is the field that deals with how computers can be made for gaining high level understanding from digital images or videos. From the perspective of engineering, it seeks to automate tasks that the human visual system can do. Computer vision is concerned with the theory behind artificial systems that extract information from images. Computer vision is useful to emulate human vision like object recognition, defect detection or automatic driving etc.
+
 <br />
 <br />
 # Knowledges required for this project
@@ -29,6 +30,7 @@ Convolution neural network is one of the deep learning algorithm that used to cl
 - Learn CNN from [tensorflow.org](https://www.tensorflow.org/tutorials/images/cnn)
 - Install Keras ``` pip install Keras ```
 - Install Keras in anaconda environment ``` conda install -c conda-forge keras ```
+
 <br />
 <br />
 # Usage
@@ -36,6 +38,7 @@ To run this project make sure you have the required installation of Python, Open
 - Clone or download this repository ``` https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver.git ```
 - Run the file ``` main.py ```
 - You don't need to train CNN on your own. I have trained a CNN model and saved the architecture in ``` numbersDetection.h5 ```
+
 <br />
 <br />
 # How does it work?
@@ -74,6 +77,7 @@ I use an external program that take an array of numbers (9x9) array. Then solve 
 Backtracking Algorithm     |  Overlay Solution
 :-------------------------:|:-------------------------:
 ![](https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver/blob/main/images/backtraking.gif) | ![](https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver/blob/main/images/place.png)
+
 <br />
 <br />
 # References
