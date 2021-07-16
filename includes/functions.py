@@ -40,7 +40,7 @@ def image_preprocessing(image):
 # Find all contours function:
 # We entered a threshold image and the function find all contours and return it
 def find_all_contours(image_threshold):
-    contours, hierarchy = cv.findContours(image_threshold, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
+    contours, _ = cv.findContours(image_threshold, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
     return contours
 
 
