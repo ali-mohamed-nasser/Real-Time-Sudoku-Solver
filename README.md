@@ -54,7 +54,7 @@ Contours can be explained simply as a curve joining all the continuous points (a
 
 <img src="https://github.com/ali-mohamed-nasser/Real-Time-Sudoku-Solver/blob/main/images/contours.png" width="1200">
 
-*Note: In OpenCV, finding contours is like finding white object from black background. So remember, object to be found should be white and background should be black.*
+> Note: In OpenCV, finding contours is like finding white object from black background. So remember, object to be found should be white and background should be black.
 
 ### Getting digits from the grid
 After getting the board in the last step I split that board to 81 image (each cell will be an image). And I clear that images one more time using thresholding to make the digits images more clear and sharp to pass it to the number detection model.
